@@ -27,6 +27,7 @@ If you find this repo to be useful in your research, please consider citing our 
 - EEGMMI data: Download the EEGMMI data set into the src/data folder of this repository using: ```wget -r -N -c -np https://physionet.org/files/eegmmidb/1.0.0/```
 ### Create environment
 ```conda env create -f environment.yml```
+
 ```conda activate eegID```
 
 ### Generate Features
