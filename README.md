@@ -6,12 +6,12 @@
 
 This repo is the implementation of our paper *System Identification Methods for Dynamic Models of Brain Activity*.
 > [**System Identification Methods for Dynamic Models of Brain Activity**](https://arxiv.org/abs/1912.12294)    
-> Tristan Griffith, James Hubbard,        
+> Tristan Griffith, James Hubbard        
 > [Biomedical Signal Processing and Control](https://www.robot-learning.org)      
 > _doi_
 
 ## Reference
-If you find this repo to be useful in your research, please consider citing our work
+If you find this repo useful in your research, please cite our work. Gotta get those rookie numbers up.
 ```
 @inproceedings{chen2019lbc,
   author    = {Dian Chen and Brady Zhou and Vladlen Koltun and Philipp Kr\"ahenb\"uhl},
@@ -20,8 +20,11 @@ If you find this repo to be useful in your research, please consider citing our 
   year      = {2019},
 }
 ```
-
 ## Quick Start
+### 1. Clone this repository
+### 2. Run Classification Model of interest
+
+## Full Pipeline
 ### 1. Download Data
 - DEAP data: The DEAP data set is publicly available, but requires access request [here](http://anaxagoras.eecs.qmul.ac.uk/request.php?dataset=DEAP). It should be placed in the src/data folder
 - EEGMMI data: Download the EEGMMI data set into the src/data folder of this repository using: ```wget -r -N -c -np https://physionet.org/files/eegmmidb/1.0.0/``` 
