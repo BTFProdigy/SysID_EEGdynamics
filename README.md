@@ -2,8 +2,6 @@
 ![Overview](reports/figures/FIG1-1.png "Overview")
 ![Example Mode](reports/figures/FIG3-1.png "Example Mode")
 ![Brain Mode 1](reports/figures/mode1.gif "Example Brain Mode 1") 
-![Brain Mode 2](reports/figures/mode2.gif "Example Brain Mode 2") 
-![Brain Mode 3](reports/figures/mode3.gif "Example Brain Mode 3") 
 ==============================
 
 This repo is the implementation of our paper *System Identification Methods for Dynamic Models of Brain Activity*.
@@ -28,8 +26,8 @@ If you find this repo to be useful in your research, please consider citing our 
 - DEAP data: The DEAP data set is publicly available, but requires access request [here](http://anaxagoras.eecs.qmul.ac.uk/request.php?dataset=DEAP).
 - EEGMMI data: Download the EEGMMI data set into the src/data folder of this repository using: ```wget -r -N -c -np https://physionet.org/files/eegmmidb/1.0.0/```
 ### Create environment
-conda env create -f environment.yml
-conda activate eegID
+```conda env create -f environment.yml```
+```conda activate eegID```
 
 ### Generate Features
 - 
