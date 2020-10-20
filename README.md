@@ -22,18 +22,21 @@ If you find this repo to be useful in your research, please consider citing our 
 ```
 
 ## Quick Start
-### Download Data
-- DEAP data: The DEAP data set is publicly available, but requires access request [here](http://anaxagoras.eecs.qmul.ac.uk/request.php?dataset=DEAP).
-- EEGMMI data: Download the EEGMMI data set into the src/data folder of this repository using: ```wget -r -N -c -np https://physionet.org/files/eegmmidb/1.0.0/```
-### Create environment
+### 1. Download Data
+- DEAP data: The DEAP data set is publicly available, but requires access request [here](http://anaxagoras.eecs.qmul.ac.uk/request.php?dataset=DEAP). It should be placed in the src/data folder
+- EEGMMI data: Download the EEGMMI data set into the src/data folder of this repository using: ```wget -r -N -c -np https://physionet.org/files/eegmmidb/1.0.0/``` 
+- Alternatively, this repository contains the processed data by default. You can skip generating features and just run the subject classification model.
+### 2. Create environment
+- Open a terminal to the root of this repository, where ```environment.yml``` is located. 
+
 ```conda env create -f environment.yml```
 
 ```conda activate eegID```
 
-### Generate Features
+### 3. Generate Features
 - 
 
-### Run Classification Model
+### 4. Run Classification Model
 
 # Project Organization
 ------------
