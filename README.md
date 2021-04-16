@@ -38,10 +38,10 @@ If you find this repo useful in your research, please cite our work. Gotta get t
 
 ### 3. Generate Features
 - Select Matlab script in ```src/features``` for data and algortithm of interest 
- - ```src/features/DMDheatmaps.m``` generates the heatmaps and tabular input data for the DEAP dataset with the DMD algorithm
- - ```src/features/DMDheatmaps_Physio.m``` generates the heatmaps and tabular input data for the EEGMMI dataset with the DMD algorithm
- - ```src/features/OMAheatmaps.m``` generates the heatmaps and tabular input data for the DEAP dataset with the OMA algorithm
- - ```src/features/DMDheatmaps_Physio.m``` generates the heatmaps and tabular input data for the EEGMMI dataset with the OMA algorithm
+   - ```src/features/DMDheatmaps.m``` generates the heatmaps and tabular input data for the DEAP dataset with the DMD algorithm
+   - ```src/features/DMDheatmaps_Physio.m``` generates the heatmaps and tabular input data for the EEGMMI dataset with the DMD algorithm
+   - ```src/features/OMAheatmaps.m``` generates the heatmaps and tabular input data for the DEAP dataset with the OMA algorithm
+   - ```src/features/DMDheatmaps_Physio.m``` generates the heatmaps and tabular input data for the EEGMMI dataset with the OMA algorithm
 - Modify heatmap and tabular output paths according to your needs 
 
 ### 4. Run Classification Model
