@@ -5,20 +5,25 @@
 ==============================
 
 This repo is the implementation of our paper *System Identification Methods for Dynamic Models of Brain Activity*.
-> [**System Identification Methods for Dynamic Models of Brain Activity**](https://arxiv.org/abs/1912.12294)    
+> [**System Identification Methods for Dynamic Models of Brain Activity**](https://www.sciencedirect.com/science/article/pii/S1746809421003621#!)    
 > Tristan Griffith, James Hubbard        
-> [Biomedical Signal Processing and Control](https://www.robot-learning.org)      
-> _doi_
+> [Biomedical Signal Processing and Control](https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control)      
+> https://doi.org/10.1016/j.bspc.2021.102765
 
 ## Reference
 If you find this repo useful in your research, please cite our work. Gotta get those rookie numbers up.
 ```
-@inproceedings{chen2019lbc,
-  author    = {Dian Chen and Brady Zhou and Vladlen Koltun and Philipp Kr\"ahenb\"uhl},
-  title     = {Learning by Cheating},
-  booktitle = {Conference on Robot Learning (CoRL)},
-  year      = {2019},
-}
+@article{GRIFFITH2021102765,
+title = {System identification methods for dynamic models of brain activity},
+journal = {Biomedical Signal Processing and Control},
+volume = {68},
+pages = {102765},
+year = {2021},
+issn = {1746-8094},
+doi = {https://doi.org/10.1016/j.bspc.2021.102765},
+url = {https://www.sciencedirect.com/science/article/pii/S1746809421003621},
+author = {Tristan D. Griffith and James E. Hubbard},
+keywords = {System identification, Modal decomposition, EEG dynamics},}
 ```
 ## Quick Start
 ### 1. Clone this repository
